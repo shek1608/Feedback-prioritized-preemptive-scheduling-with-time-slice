@@ -1,0 +1,23 @@
+mplement feedback prioritized preemptive scheduling with time slice of 2^(i-1)ms for the i-th invocation in wall-clock time (SIGALRM) for the provided user-level threads package.
+
+The following files are provided to solve this exercise:
+
+ - mythread.a
+ - mythread.h
+ - myqueue.h
+ - mymutex.h
+ - mycond.h
+ - myatomic.h
+ - futex.h
+ - futex_inline.h
+ 
+The following files have to be turned in for this exercise (without ANY activated debugging output):
+
+ - mysched.c
+ - mytest.c
+ - Makefile
+ 
+To run program, run the following commands:
+make clean;
+make
+./mytest
